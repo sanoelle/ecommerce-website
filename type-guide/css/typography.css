@@ -1,7 +1,9 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Dark gray (text): #484646 - rgb(72, 70, 70)
+  - Medium gray: #ACACAC - rgb (172, 172, 172)
+  - Aqua: #0ACBBC - rgb(10, 203, 188)
+  - Red: #DC1F47 - rgb (230, 31, 71)
  */
  
  html {
@@ -74,12 +76,13 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6, 
 .brand {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
 	color: #484646;
 }
 
 .brand-family{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .brand-color{
@@ -96,7 +99,7 @@ a,
 a:link {
 	color: #0ACBBC;
 	text-decoration:none;
-	border-bottom: 0.1em solid rgba(109,109,109,0.2);
+	border-bottom: 0.1em solid rgba(172,172,172,0.3);
 	transition: all 100ms linear;
 }
 
@@ -135,6 +138,32 @@ dl {
 	/*none*/
 }
 
+p {
+	/*none*/
+}
+
+.blockquote {
+	font-family:'Oswald', sans-serif;
+	font-weight:300;
+}
+
+hr {
+	background-color: #ACACAC;
+	height: 0.5px;
+	border:none;
+}
+
+small {
+	/*none*/
+}
+
+s {
+	/*none*/
+}
+
+cite {
+	font-family: 'Grand Hotel', cursive;
+}
 
 
 	
