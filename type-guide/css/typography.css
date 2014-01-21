@@ -212,3 +212,27 @@ data {
 	/*none*/
 }
 
+table {
+	/*none*/
+}
+
+th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border-bottom: 1px solid #CCC;
+	padding: 0.375em 4em 0.375em 0;
+}
+
+.table-top {
+	border-bottom: 3px solid #CCC;
+	/* Having issues getting the lines to connect!*/	
+}
+
+td {
+	border-bottom: 1px solid #CCC;
+}
+
+caption {
+	text-transform:uppercase;
+}
+
