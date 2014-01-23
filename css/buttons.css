@@ -1,3 +1,48 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* Style One */
+
+.btn,
+.btn:link,	
+.btn:visited {
+	display: inline-block;
+	padding: 0.3em 3em;
+	background-color: #CCC;
+	background-image: linear-gradient(to bottom, #EEE, #CCC);
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px rgba (0,0,0,0.5);
+	color: #484646;
+	font-weight:400;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #CCC;
+	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+}
+
+
+/* Style Two */
+
+.btn2,
+.btn2:link,	
+.btn2:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #0ACBBC;
+	background-image: linear-gradient(to bottom, #0ACBBC, #0ACBBC);
+	border-radius: 50px;
+	box-shadow: 1px 1px 4px rgba (0,0,0,0.5);
+	color: #fff;
+	font-weight:bold;
+}
+
+.btn2-alt,
+.btn2-alt:link,
+.btn2-alt:visited {
+	background-color: #0ACBBC;
+	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+}
