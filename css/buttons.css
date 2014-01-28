@@ -38,9 +38,10 @@
 .btn2:visited {
 	display: inline-block;
 	padding: 0em 1em;
-	color: #484646;
+	color: #000;
 	border-bottom: none;
 	font-weight:300;
+	text-transform:uppercase;
 
 }
 

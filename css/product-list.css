@@ -1,3 +1,38 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.media-img {
+	float: left; 
+	margin: 0 10px 0 0; 
+}
+
+.media-img-stacked{
+	float: none;
+	margin: 0;
+}
+
+.media-body {
+	overflow: hidden; 	
+	text-align:center;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.media-body-price {
+	overflow: hidden; 	
+	margin-top: -1.5rem;
+	text-align:center;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+.media {
+	overflow: hidden; 
+}
+
+.container {
+	padding: 1em;
+}

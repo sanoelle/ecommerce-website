@@ -160,6 +160,13 @@ hr {
 	border:none;
 }
 
+.hr-media {
+	background-color: #ACACAC;
+	height: 0.5px;
+	border:none;
+	margin-bottom:0.5rem;
+}
+
 small {
 	/*none*/
 }
