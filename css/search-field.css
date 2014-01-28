@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*Thanks to http://codepen.io/Steddie/pen/uIFki for the bones of the search bar!*/
+
 .searchArea button, 
 .searchArea 
 .inputDiv, 
@@ -16,6 +18,7 @@
   float: right;
   margin-left: -1px;
   border: solid 1px #CCC;
+  tab-
 }
 
 .searchArea button:hover,
