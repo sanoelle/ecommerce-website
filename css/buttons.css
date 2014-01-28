@@ -37,18 +37,26 @@
 .btn2:link,	
 .btn2:visited {
 	display: inline-block;
-	padding: 0.75em 1em;
-	background-color: #0ACBBC;
-	background-image: linear-gradient(to bottom, #0ACBBC, #0ACBBC);
-	border-radius: 50px;
-	box-shadow: 1px 1px 4px rgba (0,0,0,0.5);
-	color: #fff;
-	font-weight:bold;
+	padding: 0em 1em;
+	color: #484646;
+	border-bottom: none;
+	font-weight:300;
+
 }
 
 .btn2-alt,
 .btn2-alt:link,
 .btn2-alt:visited {
+	background-color: #DEDADA;
+}
+
+.btn2:hover,
+.btn2:focus,
+.btn2:active {
+	border-bottom: none;
 	background-color: #0ACBBC;
-	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+}
+
+.styles{
+	margin-top: 2rem;
 }
