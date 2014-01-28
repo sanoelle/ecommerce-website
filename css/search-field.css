@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.searchArea button, 
+.searchArea 
+.inputDiv, 
+.searchArea input {
+  height: 24px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0;
+}
+
+.searchArea button {
+  float: right;
+  margin-left: -1px;
+  border: solid 1px #CCC;
+}
+
+.searchArea button:hover,
+.searchArea button:focus,
+.searchArea button:active {
+	border-bottom: none;
+	background-color: #000;
+	color:#fff;
+}
+
+.searchArea .inputDiv {
+  overflow: hidden;
+  border: solid 1px #CCC;
+}
+
+.searchArea input {
+  border:0;
+  width: 100%;
+  padding: 0 3px;
+  height: 22px;
+}
+
+.searchArea{
+	width: 40%;
+}
