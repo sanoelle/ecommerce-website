@@ -34,5 +34,10 @@
 }
 
 .container {
-	padding: 1em;
+	padding: 2em;
+}
+
+.img-flex{
+	display: block;
+	width: 100%;
 }
