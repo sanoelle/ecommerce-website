@@ -4,13 +4,16 @@
 
 .header{
 	margin-top: 2rem;	
+	display:none;
 }
 
 .top-logo{
-	width:35%;
+	width:70%;
 	margin-right:auto;
 	margin-left:auto;
 	display:block;
+	margin-top:2rem;
+	margin-bottom:1.5rem;
 }
 
 main{
@@ -101,5 +104,43 @@ ul,li {
 	border-bottom: none;
 }
 
+.top-logo{
+	width:40%;
+}
+}
+
+@media only screen and (min-width: 53em){
+.top-logo{
+	float:left;
+	width:10%;
+	margin-top:auto;
+	margin-left:2rem;
+}	
+
+.nav li{
+	float: left;
+	width: 12%;
+	font-size: 0.7901rem;
+	margin-top:2.2rem;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	line-height:1rem;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: rgba(230, 31, 71, 1);
+	color: #FFF;
+}
+
+a,
+a:link {
+	border-bottom:none;
+}
+	
 }
 
