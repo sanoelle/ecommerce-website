@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.header{
+	margin-top: 2rem;	
+}
+
+/*Navigation*/
+/* TOP */
+.nav a,
+.nav a:link,
+.nav a:visited{
+	display: inline-block;
+	color: #000;
+
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: inline-block;
+	color: #000;
+
+}
+
