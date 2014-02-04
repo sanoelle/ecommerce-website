@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+img{
+	width:100%;
+}
+
 @media only screen and (min-width: 26em){
 }

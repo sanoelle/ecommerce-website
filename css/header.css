@@ -6,6 +6,13 @@
 	margin-top: 2rem;	
 }
 
+.top-logo{
+	width:35%;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+}
+
 main{
 	margin:0 5%;
 }
@@ -91,7 +98,7 @@ ul,li {
 	width: 20%;
 	display: inline-block;	
 	margin-bottom: 0rem;
-	border-bottom: 1px solid rgba(204, 204, 204, 1);
+	border-bottom: none;
 }
 
 }
