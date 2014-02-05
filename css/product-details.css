@@ -6,10 +6,15 @@
 	margin-top:1.5rem;
 }
 
+.box-wrapper{
+	/*border: 1px solid red;*/
+	margin: 1rem 1%;
+}
+
 .about{
 	text-align:center;
 	margin-bottom:0.5rem;
-	margin-top:2rem;
+	margin-top:1rem;
 }
 
 .description{
@@ -28,7 +33,7 @@
 
 
 .qty-wrapper {
-	margin: 4rem auto;
+	margin: 1rem auto;
 	width: 150px;
 }
 
@@ -108,7 +113,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .border-bottom-2{
 	border-bottom: 1px solid #ACACAC;
-	margin: 0 1%;
+}
+
+.border-top{
+	border-top: 1px solid #ACACAC;
 }
 
 @media only screen and (min-width: 36em){
@@ -124,10 +132,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 @media only screen and (min-width: 43em){
-/*.border-bottom-2{
-	display:none;
-}*/
-
 .title{
 	float:left;
 }
