@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*.border-bottom-2{
-	border-bottom: 1px solid #ACACAC;
-	text-align:center;
-	line-height:50px;
-}*/
-
 .title{
 	line-height:35px;
 }
@@ -21,7 +15,86 @@
 }
 
 .centre-button{
-	align: center;
+	float:right;
 }
 
 /*QTY*/
+.qty{
+	float: left;
+}
+
+
+.woocommerce .quantity input.qty, 
+.woocommerce #content .quantity input.qty, 
+.woocommerce-page .quantity input.qty, 
+.woocommerce-page #content .quantity input.qty {
+	width: 34px;
+	height: 20px;
+	float: left;
+	padding: 0;
+	text-align: center;
+	border: none;
+	font-weight: normal;
+}
+
+.woocommerce .quantity .minus, 
+.woocommerce #content .quantity .minus, 
+.woocommerce-page .quantity .minus, 
+.woocommerce-page #content .quantity .minus {
+	float:left;
+	width: 11px;
+	height: 11px;
+	display: block;
+	background: url("http://lovelab.co.za/proto/pederson_arrows.png") no-repeat scroll left bottom transparent;
+	text-indent: -500px;
+	border:none;
+	background-position: left 0px;
+	cursor: pointer;
+	margin-top:5px;
+}
+
+.woocommerce .quantity .minus:hover, 
+.woocommerce #content .quantity .minus:hover, 
+.woocommerce-page .quantity .minus:hover, 
+.woocommerce-page #content .quantity .minus:hover {  
+	background-position: left -20px;
+}
+
+.woocommerce .quantity .plus, 
+.woocommerce #content .quantity .plus, 
+.woocommerce-page .quantity .plus, 
+.woocommerce-page #content .quantity .plus {
+	width: 11px;
+	height: 11px;
+	background: url("http://lovelab.co.za/proto/pederson_arrows.png") no-repeat scroll left bottom transparent;
+	text-indent: -500px;
+	border:none;
+	background-position: right 0px;
+	cursor: pointer;
+	margin-top:5px;
+}
+
+.woocommerce .quantity .plus:hover, 
+.woocommerce #content .quantity .plus:hover, 
+.woocommerce-page .quantity .plus:hover, 
+.woocommerce-page #content .quantity .plus:hover {  
+	background-position: right -20px;
+}
+
+.arr-r.black {
+background-position: right -20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*QTY end*/
+
+.border-bottom-2{
+	border-bottom: 1px solid #ACACAC;
+	margin: 1rem 10%;
+}
+
