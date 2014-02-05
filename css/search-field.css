@@ -1,46 +1,62 @@
-@charset "UTF-8";
-/* CSS Document */
-
-/*Thanks to http://codepen.io/Steddie/pen/uIFki for the bones of the search bar!*/
-
-.searchArea button, 
-.searchArea 
-.inputDiv, 
-.searchArea input {
-  height: 24px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin:0;
+*{ 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
 }
 
-.searchArea button {
-  float: right;
-  margin-left: -1px;
-  border: solid 1px #CCC;
-  tab-
+
+/* Main CSS */
+.search-field-container{ 
+	position: relative; 
+	margin-bottom: 2rem;
+	margin-top:-2rem;
 }
 
-.searchArea button:hover,
-.searchArea button:focus,
-.searchArea button:active {
-	border-bottom: none;
-	background-color: #000;
-	color:#fff;
+.search-field{ 
+	width: 100%; 
+	position: absolute; 
+	right: 0; 
+	top: 0;
+  	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
 }
 
-.searchArea .inputDiv {
-  overflow: hidden;
-  border: solid 1px #CCC;
+.search-field:focus{ 
+	width: 100%; 
 }
 
-.searchArea input {
-  border:0;
-  width: 100%;
-  padding: 0 3px;
-  height: 22px;
+
+/* Appearance */
+
+
+.search-field-container{ 
+	display: block; 
+	float: left; 
+	width: 100%; 
+	height: 35px;
+	border: 1px solid red; 
 }
 
-.searchArea{
-	width: 40%;
+.search-form{ 
+	max-width: 300px; 
+	margin: 40px auto; 
+}
+
+.search-field{ 
+	background-color: #fff; 
+	font-size: 14px; 
+	padding: 8px; 
+	border: 1px solid #ccc; 
+	outline: none; 
+	-moz-border-radius: 1px; 
+	border-radius: 1px; 
+}
+
+@media only screen and (min-width: 33em){
+.search-field{ 
+	width: 70%; 
+}
+
 }
