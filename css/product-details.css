@@ -3,11 +3,13 @@
 
 .title{
 	line-height:35px;
+	margin-top:1.5rem;
 }
 
 .about{
 	text-align:center;
 	margin-bottom:0.5rem;
+	margin-top:2rem;
 }
 
 .description{
@@ -15,14 +17,25 @@
 }
 
 .centre-button{ /*CANNOT CENTRE ON SMALL SCREEN!*/
-	float:right;
+	/*float:right;*/
 }
 
 /*QTY*/
 .qty{ /*CANNOT CENTRE ON SMALL SCREEN!*/
-	float:left;
+	/*float:left;*/
+	
 }
 
+
+.qty-wrapper {
+	margin: 4rem auto;
+	width: 150px;
+}
+
+.btn-wrapper {
+	margin: 2rem auto;
+	width: 150px;
+}
 
 .woocommerce .quantity input.qty, 
 .woocommerce #content .quantity input.qty, 
@@ -95,18 +108,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .border-bottom-2{
 	border-bottom: 1px solid #ACACAC;
-	margin: 2rem 10%;
+	margin: 0 1%;
 }
 
-@media only screen and (min-width: 43em){
-.border-bottom-2{
-	display:none;
-}
-
-.title{
-	float:left;
-}
-
+@media only screen and (min-width: 36em){
 .about{
 	text-align: left;
 }
@@ -114,6 +119,17 @@ input[type=number]::-webkit-outer-spin-button {
 .description{
 	text-align: left;
 	float:right;
+}
+}
+
+
+@media only screen and (min-width: 43em){
+/*.border-bottom-2{
+	display:none;
+}*/
+
+.title{
+	float:left;
 }
 
 .media-body-price{
