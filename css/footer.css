@@ -3,7 +3,7 @@
 
 .footer{
 	background-color: rgba(72, 70, 70, 1);
-	height:10rem;
+	height:15rem;
 	width: 100%; 
 	position:fixed; 
 	bottom: 0;  
@@ -13,23 +13,40 @@
 .footer-text{
 	color: #ffffff;
 	text-transform:none;
-	text-align:center;
-	padding-top:1rem;
+	text-align:center;	
+}
+
+.info-footer-text{
+	color: #ffffff;
+	text-transform:none;
+	text-align:center;	
+	font-weight: 100;
+	letter-spacing:1.5px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top:1.5rem;
+	
 }
 
 .border-bottom{
 	border-bottom: 1px solid #ccc;
-	margin: 0 5%;
+	margin: 1rem 5%;
 	text-align:center;
 	line-height:50px;
 }
+
+.border-top{
+	border-top: 1px solid #ccc;
+	margin: 0 5%;
+	text-align:center;
+}
+
 
 /*Social Icons*/
 
 section{ /*having issues centering on smallest screen size*/
 	width: 17rem;
 	display:table;
-	margin:auto;
+	margin: auto;
 	clear:both;
 }
 
@@ -75,142 +92,3 @@ ul li:before {
 	display: block;
 }
 
-/*Codepen Help
-
-html {
-	-webkit-font-smoothing: antialiased;
-}
-body{ 
-  color: #85878a;
-  letter-spacing: 0.5px;
-  background-color:#333;
-  font-family: Lato, Helvetica, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  line-height: 24px;
-} 
-
-a {
-	color: white;
-	text-decoration: none;
-} 
-
-.footer { 
-	background: #222222; 
-	width: 100%; 
-	height: 43px; 
-	position: fixed; 
-	bottom: 0; 
-	z-index: 1000; 
-	left: 0; 
-}
-
-.footer-left {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    height: 43px;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    width: 1655px;
-    border: 0px none rgb(255, 255, 255);
-    font: normal normal 300 16px/24px Lato, Helvetica, sans-serif;
-    list-style: none outside none;
-    margin: 0px;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-    padding: 0px;
-}
-.footer .footer-left { 
-	list-style: none; 
-	height: 100%; 
-	overflow: hidden; 
-}
-
-.footer .footer-left li { 
-	height: 100%; 
-	float: left; 
-	border-right: 1px solid #323232; 
-	line-height: 43px; 
-}
-
-.footer .footer-left .icon { 
-	-webkit-transition: background 150ms; 
-	-moz-transition: background 150ms; 
-	-o-transition: background 150ms; 
-	transition: background 150ms; 
-	font-size: 1.2em; 
-	position: relative; 
-	top: 1px; 
-}
-
-.footer .footer-left
-.icon.icon-google-plus:hover { 
-	background: #FA553B; 
-}
-
-.footer .footer-left .icon.icon-facebook:hover { 
-	background: #4B6BC1; 
-}
-
-.footer .footer-left .icon.icon-twitter:hover { 
-	background: #49D2FD; 
-}
-
-.footer .footer-left a { 
-	padding: 15px; 
-}
-
-.footer .footer-left .small-link { 
-	-webkit-transition: background 150ms; 
-	-moz-transition: background 150ms; 
-	-o-transition: background 150ms; 
-	transition: background 150ms; 
-	position: relative; 
-	top: -3px; 
-	width: 100%; 
-}
-
-.footer .footer-left .small-link:hover { 
-	background: white; 
-	color: #666; 
-}
-
-.footer .footer-right { 
-	position: absolute; 
-	top: 0px; 
-	right: 12px; 
-}
-
-.footer .logo { 
-	width: 50px; 
-	height: 50px; 
-	display: inline-block; 
-	position: relative; 
-	margin-left: 4px; 
-	top: 5px; 
-	bottom: 5px;
-}
-
-.small-link { 
-	text-transform: uppercase; 
-	font-size: 10px; 
-}
-
-.icon-google-plus, .icon-facebook, .icon-twitter { 
-	font-family: 'icomoon'; 
-	speak: none; 
-	font-style: normal; 
-	font-weight: normal; 
-	font-variant: normal; 
-	text-transform: none; 
-	line-height: 1; 
-	-webkit-font-smoothing: antialiased; 
-}
-
-.icon-google-plus:before { content: "\e000"; } 
-.icon-facebook:before { content: "\e001"; } 
-.icon-twitter:before { content: "\e002"; }
-*/

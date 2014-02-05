@@ -1,3 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*.border-bottom-2{
+	border-bottom: 1px solid #ACACAC;
+	text-align:center;
+	line-height:50px;
+}*/
+
+.title{
+	line-height:35px;
+}
+
+.about{
+	text-align:center;
+	margin-bottom:0.5rem;
+}
+
+.description{
+	text-align: center;
+}
+
+.centre-button{
+	align: center;
+}
+
+/*QTY*/
