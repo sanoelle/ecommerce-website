@@ -3,8 +3,6 @@
 
 .large,
 .small{
-	margin-right:2%;
-	margin-top:-1rem;
 	margin-bottom:-1rem;
 	display: block;
 	border: 5px solid black;
