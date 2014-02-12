@@ -112,7 +112,7 @@ a:link {
 }
 
 a:visited {
-	colorL #6c6;
+	color: #6C6;
 	border-bottom-color: rgba(150,200,150,0.5);
 }
 
