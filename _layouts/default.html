@@ -9,23 +9,56 @@
 	<link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/product-list.css" rel="stylesheet">
-	<link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">	
-	<link href="{{site.baseurl}}/css/search-field.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/common.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/typography.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/header.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/footer.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/forms.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/grid.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/list-group.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/product-details.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/product-list.css" rel="stylesheet">
+	<link href="../{{site.baseurl}}/css/promos.css" rel="stylesheet">	
+	<link href="../{{site.baseurl}}/css/search-field.css" rel="stylesheet">
 </head>
 <body>	
 
+<!-- Header & Navigation -->
+
+<!-- Search Field-->
+
+<form class="search-form">
+  <div class="search-field-container">
+    <input type="text" class="search-field" placeholder="Search..." />
+  </div>  
+</form>
+
+<!--(Invisible) header & (visible) logo -->
+
+
+<div class="header">
+	<h1>The Willow Tree</h1>
+</div>
+<a href=""><img src="../../images/twt-logo-copy.gif" alt="The Willow Tree Logo" class="img top-logo"></a> 
+
+<!-- Nav -->
+<main>
+	<a href="#nav" class="nav-btn">MENU</a>
+	<nav class="nav nav-top ease-all" data-state="collapsed">
+		<ul>
+			<li><a href="">HOME</a></li>
+			<li><a href="">CONTACT</a></li>
+			<li><a href="">JEWELLERY</a></li>
+			<li><a href="">OUTERWEAR</a></li>
+			<li><a href="">EYEWEAR</a></li>
+		</ul>
+	</nav>
+</main>
+
 {{content}}
 
+<script src="../../js/nav.js"></script>
 </body>
 </html>
