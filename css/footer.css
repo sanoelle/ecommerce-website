@@ -5,9 +5,9 @@
 	background-color: rgba(72, 70, 70, 1);
 	height:15rem;
 	width: 100%; 
-	/*position:fixed;*/ 
-	bottom: 0;  
-	left: 0;
+	/*position:fixed; 
+	bottom: 0;
+	left: 0;*/
 }
 
 .footer-text{
@@ -44,9 +44,10 @@
 /*Social Icons*/
 
 section{ /*having issues centering on smallest screen size*/
-	width: 17rem;
+	width: 13rem;
 	display:table;
-	margin: auto;
+	margin-left: auto;
+	margin-right:auto;
 	clear:both;
 }
 
