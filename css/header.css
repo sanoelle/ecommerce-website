@@ -88,7 +88,7 @@ ul,li {
 .banner{
 	background: #ccc url("../images/banner.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 5em 1em 3em;
+	padding: 5em 1em 4em;
 	text-align:center;
 	color: #fff;
 	text-transform:uppercase;
