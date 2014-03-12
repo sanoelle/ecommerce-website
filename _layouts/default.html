@@ -59,6 +59,12 @@
 	<div class="line"></div>
 </main>
 
+{% if page.showbanner%}
+	<div class="banner">
+		<p>{{page.bannertext}}</p>
+	</div>
+{% endif %}
+
 {{content}}
 
 <!-- Footer-->
