@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>The Willow Tree</title>
+	<title>{{page.title}} · The Willow Tree</title>
 	<meta name="handheldfriendly" content="true">
   	<meta name="mobileoptimized" content="240">
   	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -25,8 +25,6 @@
 	<link href="../{{site.baseurl}}/css/search-field.css" rel="stylesheet">
 </head>
 <body>	
-
-{{page.url}}
 
 <!-- Header & Navigation -->
 
@@ -53,9 +51,9 @@
 		<ul>
 			<li><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
 			<li><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">ABOUT</a></li>
-			<li><a href="">JEWELLERY</a></li>
-			<li><a href="">OUTERWEAR</a></li>
-			<li><a href="">EYEWEAR</a></li>
+			<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">JEWELRY</a></li>
+			<li><a class="{% if page.url == '/outerwear/'%}current{% endif %}" href="{{site.baseurl}}/outerwear/">OUTERWEAR</a></li>
+			<li><a class="{% if page.url == '/eyewear/'%}current{% endif %}" href="{{site.baseurl}}/eyewear/">EYEWEAR</a></li>
 		</ul>
 	</nav>
 	<div class="line"></div>

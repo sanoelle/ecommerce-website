@@ -17,6 +17,11 @@
   width: 100%;
 }
 
+.current {
+	color:#DC1F47;
+	font-weight:700;
+}
+
 @media only screen and (min-width: 53em){
 
 .line{
