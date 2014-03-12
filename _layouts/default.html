@@ -26,6 +26,8 @@
 </head>
 <body>	
 
+{{page.url}}
+
 <!-- Header & Navigation -->
 
 <!-- Search Field-->
@@ -49,8 +51,8 @@
 	<a href="#nav" class="nav-btn">MENU</a>
 	<nav class="nav nav-top ease-all" data-state="collapsed">
 		<ul>
-			<li><a href="{{site.baseurl}}/">HOME</a></li>
-			<li><a href="{{site.baseurl}}/about/">CONTACT</a></li>
+			<li><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
+			<li><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">ABOUT</a></li>
 			<li><a href="">JEWELLERY</a></li>
 			<li><a href="">OUTERWEAR</a></li>
 			<li><a href="">EYEWEAR</a></li>
