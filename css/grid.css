@@ -31,6 +31,10 @@
  	padding-right: 0rem;
 }
 
+.small-promo{
+	margin-top: 2rem;	
+}
+
 .grid{
 	/*border: 1px solid red;*/
 	overflow:hidden;
@@ -74,6 +78,10 @@
 
 .unit-l-2-3{
 	width: 66.6666%;
+}
+
+.unit-l-3-3{
+	width: 100%;
 }
 }
 
