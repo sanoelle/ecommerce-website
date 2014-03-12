@@ -39,7 +39,7 @@
 }
 
 .search-form{ 
-	max-width: 300px; 
+	/*max-width: 300px; */
 	margin: 40px auto; 
 }
 
@@ -56,7 +56,7 @@
 @media only screen and (min-width: 33em){
 .search-field{ 
 	width: 25%;
-	position:fixed; 
+	position:absolute; 
 	right: 0.5rem; 
 	top: 0.5rem;
 }

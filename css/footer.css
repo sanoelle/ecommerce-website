@@ -51,12 +51,12 @@ section{ /*having issues centering on smallest screen size*/
 	clear:both;
 }
 
-a,
-a:link {
+footer a,
+footer a:link {
 	border-bottom: none;
 }
 
-ul li:before {
+footer ul li:before {
 	content: "";
 }
 
