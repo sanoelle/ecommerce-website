@@ -26,10 +26,10 @@
 }
 }*/
 
-.gutter{
-	padding-left: 0rem;
- 	padding-right: 0rem;
-}
+/*.gutter{
+	padding-left: 1rem;
+ 	padding-right: 1rem;
+}*/
 
 .small-promo{
 	margin-top: 2rem;	
@@ -38,6 +38,12 @@
 .grid{
 	/*border: 1px solid red;*/
 	overflow:hidden;
+}
+
+.grid-2{
+	/*border: 1px solid red;*/
+	overflow:hidden;
+	margin-bottom:-3rem;
 }
 
 .unit{

@@ -88,7 +88,7 @@ ul,li {
 .banner{
 	background: #ccc url("../images/banner-aqua.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 15em 1em 15em;
+	padding: 2em 1em 2em;
 	margin-top: 0.5rem;
 }
 
@@ -132,6 +132,10 @@ ul,li {
 .top-logo{
 	width:40%;
 }
+
+.banner{
+	padding: 9em 1em 9em;
+}
 }
 
 @media only screen and (min-width: 53em){
@@ -169,6 +173,10 @@ a:link {
 
 .banner{
 	margin-top: 1.5rem;
+}
+
+.banner{
+	padding: 15em 1em 15em;
 }
 	
 }
