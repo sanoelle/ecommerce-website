@@ -86,13 +86,27 @@ ul,li {
 }
 
 .banner{
-	background: #ccc url("../images/banner.jpg") no-repeat center center;
+	background: #ccc url("../images/banner-aqua.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 5em 1em 4em;
+	padding: 15em 1em 15em;
+	margin-top: 0.5rem;
+}
+
+.banner-text{
+	padding: 1em 1em 1em;
 	text-align:center;
 	color: #fff;
 	text-transform:uppercase;
+	letter-spacing:4px;
 	font-size:24px;
+	border: 3px solid white;
+}
+
+.banner-text-under{
+	text-align:center;
+	color: #fff;
+	margin-top: -1rem;
+	font-style: italic;
 }
 
 @media only screen and (min-width: 33em){
@@ -151,6 +165,10 @@ ul,li {
 a,
 a:link {
 	border-bottom:none;
+}
+
+.banner{
+	margin-top: 1.5rem;
 }
 	
 }

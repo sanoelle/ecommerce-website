@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body{
+	margin: 0px;
+}
 .paragraph{
 	text-align:center;
 	margin: 0 10%;

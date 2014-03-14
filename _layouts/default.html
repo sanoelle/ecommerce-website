@@ -56,12 +56,15 @@
 			<li><a class="{% if page.url == '/eyewear/'%}current{% endif %}" href="{{site.baseurl}}/eyewear/">EYEWEAR</a></li>
 		</ul>
 	</nav>
-	<div class="line"></div>
+	{% if page.showline%}
+		<div class="line"></div>
+	{% endif %}
 </main>
 
 {% if page.showbanner%}
 	<div class="banner">
-		<p>{{page.bannertext}}</p>
+		<p class="banner-text">{{page.bannertext}}</p>
+		<p class="banner-text-under">{{page.bannertextunder}}</p>
 	</div>
 {% endif %}
 
