@@ -1,6 +1,108 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* Product Page CSS */
+
+.side-nav-box{
+	margin-top:1rem;
+	margin-left: 1rem;
+}
+
+.nav-side a,
+.nav-side a:link,
+.nav-side a:visited{
+	display:block;
+	color: #000;
+	text-decoration:none; /*is not working*/
+	text-align:center;
+	list-style-type: none;
+	line-height:2rem;
+}
+
+.nav-side-btn,
+.nav-side-btn:link,
+.nav-side-btn:visited{
+	display:block;
+	color: #000;
+	text-decoration:none; /*is not working*/
+	text-align:center;
+	list-style-type: none;
+	line-height:2rem;
+}
+
+.nav-side-btn:hover,
+.nav-side-btn:focus,
+.nav-side-btn:active{
+	color: #DC1F47;
+}
+
+ul li:before {
+	content: "";
+}
+
+ul,li { 
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0; 
+}
+
+@media only screen and (min-width: 33em){
+.side-nav-box{
+	margin-top:0rem;
+	margin-left: 2.5rem;
+}
+
+.nav-side a,
+.nav-side a:link,
+.nav-side a:visited{
+	text-align:left;
+}
+
+.nav-side-btn,
+.nav-side-btn:link,
+.nav-side-btn:visited{
+	text-align:left;
+}
+
+}
+
+@media only screen and (min-width: 53em){
+.side-nav-box{
+	margin-top:-1rem;
+	margin-left:3rem;
+}
+
+}
+
+/* Toggle Nav
+.nav-top{
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+	overflow:hidden;
+}
+
+.nav-top[data-state="expanded"]{
+	max-height: 14rem;
+}
+	
+.ease-all,
+.nav,
+.nav-top{
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transistion: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o- transition:all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+
+/* Product Page CSS ENDS*/
+
 body{
 	margin: 0px;
 }

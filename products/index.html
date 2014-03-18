@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+showline: yes
+showsidenav: yes
+---
+
+{% if page.showsidenav%}
+	<div class="side-nav-box"
+		<nav class="nav-side" data-state="expanded">
+			<ul>
+				<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">JEWELRY</a></li>
+				<li><a class="{% if page.url == '/outerwear/'%}current{% endif %}" href="{{site.baseurl}}/outerwear/">OUTERWEAR</a></li>
+				<li><a class="{% if page.url == '/headwear/'%}current{% endif %}" href="{{site.baseurl}}/headwear/">HEADWEAR</a></li>
+			</ul>
+		</nav>
+	</div>
+{% endif %}
+  
