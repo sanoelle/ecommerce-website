@@ -1,5 +1,6 @@
 ---
 layout: jewelry
+type: earrings
 title: Susan's Arrows
 price: $60
 ---

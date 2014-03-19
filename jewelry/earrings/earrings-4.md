@@ -1,5 +1,6 @@
 ---
 layout: jewelry
+type: earrings
 title: Ana's Gold
 price: $75
 ---

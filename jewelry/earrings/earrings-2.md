@@ -1,5 +1,6 @@
 ---
 layout: jewelry
+type: earrings
 title: Julie's June
 price: $50
 ---

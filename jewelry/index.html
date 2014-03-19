@@ -10,10 +10,23 @@ showsidenavjewl: yes
 
 <ul>
 	{% for jewelry in site.pages %}
-		<li>
-			{{jewelry.title}}
-		</li>
+		{% if jewelry.type == 'earrings' %}
+			<li>
+				{{jewelry.title}}
+			</li>
+		{% endif %}
 	{% endfor %}
 </ul>
 
-{{content}}
+<ul> <!-- Want Jaekl to automatically generate </li>s for the page - loop -->
+	{% for dino in site.pages %} <!-- Any code between the for and endfor will get written out multiple times -->
+		{% if dino.category == 'jewelry' %}
+			<li>
+			<a href="{{site.baseurl}}{{dino.url}}">
+				<img src="{{site.baseurl}}/images/{{earring.image}}" alt="">
+				{{earring.name}}
+			</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

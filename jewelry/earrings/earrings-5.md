@@ -1,5 +1,6 @@
 ---
 layout: jewelry
+type: earrings
 title: Sunny's Day
 price: $50
 ---
