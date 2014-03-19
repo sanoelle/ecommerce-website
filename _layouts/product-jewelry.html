@@ -1,5 +1,26 @@
 ---
 layout: default
+sidenav: yes
+showsidenavjewl: yes
 ---
+
+{% if page.showsidenav%}
+	<div class="side-nav-box"
+		<nav class="nav-side" data-state="expanded">
+			<ul>
+				<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">JEWELRY</a></li>
+				{% if page.showsidenavjewl%}
+					<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">earrings</a></li>
+					<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">rings</a></li>
+					<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">necklaces</a></li>
+				{% endif %}
+					
+				<li><a class="{% if page.url == '/outerwear/'%}current{% endif %}" href="{{site.baseurl}}/outerwear/">OUTERWEAR</a></li>
+					
+				<li><a class="{% if page.url == '/footwear/'%}current{% endif %}" href="{{site.baseurl}}/footwear/">FOOTWEAR</a></li>
+			</ul>
+		</nav>
+	</div>
+{% endif %}
 
 {{content}}
