@@ -4,9 +4,24 @@
 
 /* Product Page CSS */
 
+.h1-alt{
+	text-align:center;
+	font-size: 1.8020rem;
+  	line-height: 1.6648;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #484646;
+	text-transform:uppercase;
+}
+
+.product-images{
+	margin-top: -3rem;
+}
+
 .side-nav-box{
 	margin-top:1rem;
 	margin-left: 1rem;
+	padding-right: 2rem;
 }
 
 .nav-side a,
@@ -73,6 +88,12 @@ ul,li {
 .side-nav-box{
 	margin-top:-1rem;
 	margin-left:3rem;
+	position:fixed;
+}
+
+
+.product-images{
+	margin-left:9rem;
 }
 
 }
@@ -128,6 +149,11 @@ body{
 	font-weight:700;
 }
 
+.current2 {
+	background-color:#ccc;
+	font-weight:700;
+}
+
 @media only screen and (min-width: 53em){
 
 .line{
@@ -137,6 +163,12 @@ body{
 
 .paragraph{
 	margin: 5rem 20%;
+}
+
+.h1-alt{
+	text-align:left;
+	margin-left: 10rem;
+
 }
 
 }

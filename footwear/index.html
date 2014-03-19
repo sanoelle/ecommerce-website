@@ -4,6 +4,23 @@ title: Eyewear
 showline: yes
 showsidenav: yes
 showsidenavfoot: yes
+footwearimage: yes
 ---
 
-<h1>Footwear</h1>
+<p class="h1-alt">Footwear</p>
+
+{% if page.footwearimage%}
+	<div class="product-images">
+		<div class="grid">
+			<div>
+				<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			</div>
+			<div>
+				<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			</div>
+			<div>
+				<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			</div>
+		</div>
+	</div>
+{% endif %}
