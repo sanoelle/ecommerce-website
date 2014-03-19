@@ -52,6 +52,7 @@ ul,li {
 .side-nav-box{
 	margin-top:0rem;
 	margin-left: 2.5rem;
+	positon: fixed;
 }
 
 .nav-side a,

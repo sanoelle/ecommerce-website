@@ -4,10 +4,11 @@ title: Jewelry
 showline: yes
 showsidenav: yes
 showsidenavjewl: yes
+jewelryimage: yes
 ---
 
 <h1>Jewelry</h1>
-
+<!--
 <ul>
 	{% for jewelry in site.pages %}
 		{% if jewelry.type == 'earrings' %}
@@ -18,8 +19,8 @@ showsidenavjewl: yes
 	{% endfor %}
 </ul>
 
-<ul> <!-- Want Jaekl to automatically generate </li>s for the page - loop -->
-	{% for dino in site.pages %} <!-- Any code between the for and endfor will get written out multiple times -->
+<ul> <!-- Want Jaekl to automatically generate </li>s for the page - loop --><!--
+	{% for jewelry in site.pages %} <!-- Any code between the for and endfor will get written out multiple times --><!--
 		{% if dino.category == 'jewelry' %}
 			<li>
 			<a href="{{site.baseurl}}{{dino.url}}">
@@ -30,3 +31,18 @@ showsidenavjewl: yes
 		{% endif %}
 	{% endfor %}
 </ul>
+
+-->
+{% if page.jewelryimage%}
+	<div class="grid">
+		<div>
+			<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		</div>
+		<div>
+			<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		</div>
+		<div>
+			<img src="{{site.baseurl}}/../images/jewelry/earrings/sample-image.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		</div>
+	</div>
+{% endif %}
