@@ -6,6 +6,14 @@ showsidenav: yes
 showsidenavjewl: yes
 ---
 
-<h1>Products</h1>
+<h1>Jewelry</h1>
+
+<ul>
+	{% for jewelry in site.pages %}
+		<li>
+			{{jewelry.title}}
+		</li>
+	{% endfor %}
+</ul>
 
 {{content}}
