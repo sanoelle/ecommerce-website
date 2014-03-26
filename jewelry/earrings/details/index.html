@@ -1,0 +1,17 @@
+---
+layout: default
+showsidenav: yes
+showsidenavjewl: yes
+showline: yes
+---
+
+{% for earrings in site.pages %} <!-- Any code between the for and endfor will get written out multiple times -->
+	{% if dino.category == 'earrings-1' %}
+		<li>
+		<a href="{{site.baseurl}}{{earrings.url}}">
+			<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+			{{earrings.name}}
+		</a>
+		</li>
+	{% endif' %}
+{% endfor %}

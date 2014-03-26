@@ -63,6 +63,27 @@ ul,li {
 	padding:0; 
 }
 
+/* SEARCH RESULTS PAGE */
+.cart-images,
+.search-res-images{
+	padding-top:1rem;
+}
+
+.cart-caption-title,
+.search-res-caption{
+	text-align:center;
+	font-size: 1.2656rem;
+  	line-height: 1.1852;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #484646;
+	text-transform:uppercase;
+	margin-top:1rem;
+}
+}
+
+/* SEARCH RESULTS ENDS */
+
 @media only screen and (min-width: 33em){
 .side-nav-box{
 	margin-top:0rem;
@@ -81,6 +102,13 @@ ul,li {
 .nav-side-btn:visited{
 	text-align:left;
 }
+
+/* SEARCH RESULTS PAGE */
+.search-res-images{
+	padding-top:0rem;
+}
+
+/* SEARCH RESULTS ENDS */
 
 }
 
