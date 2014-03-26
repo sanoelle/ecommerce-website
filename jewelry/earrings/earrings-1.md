@@ -9,6 +9,6 @@ image: sample-image.jpg
 <!-- Paragraphs --->
 
 <!-- H2 -->
-## Features
+## Jane's Pearls
 
-![Jane's Pearls](../../images/jewelry/earrings/sample-image.jpg)
+![Jane's Pears](../../../images/jewelry/earrings/sample-image.jpg)
