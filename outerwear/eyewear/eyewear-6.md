@@ -1,9 +1,9 @@
 ---
 layout: products
-type: hats
-title: Hat 5
-price: $30
-image: outerwear/hats/sample-image.jpg
+type: eyewear
+title: Eyewear 6
+price: $20
+image: outerwear/eyewear/sample-image.jpg
 ---
 
 

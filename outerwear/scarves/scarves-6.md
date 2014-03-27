@@ -1,9 +1,9 @@
 ---
 layout: products
-type: hats
-title: Hat 5
-price: $30
-image: outerwear/hats/sample-image.jpg
+type: scarves
+title: Scarf 6
+price: $20
+image: outerwear/scarves/sample-image.jpg
 ---
 
 

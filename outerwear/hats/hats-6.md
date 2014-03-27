@@ -1,7 +1,7 @@
 ---
 layout: products
 type: hats
-title: Hat 5
+title: Hat 6
 price: $30
 image: outerwear/hats/sample-image.jpg
 ---
