@@ -1,7 +1,7 @@
 ---
 layout: products
 type: heels
-title: Heels 5
+title: Heels 6
 price: $50
 image: footwear/heels/sample-image.jpg
 ---

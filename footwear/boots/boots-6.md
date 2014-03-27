@@ -1,9 +1,9 @@
 ---
 layout: products
-type: heels
-title: Heels 5
+type: boots
+title: Boots 6
 price: $50
-image: footwear/heels/sample-image.jpg
+image: footwear/boots/sample-image.jpg
 ---
 
 

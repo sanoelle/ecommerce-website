@@ -1,9 +1,9 @@
 ---
 layout: products
-type: heels
-title: Heels 5
+type: sandals
+title: Sandals 6
 price: $50
-image: footwear/heels/sample-image.jpg
+image: footwear/sandals/sample-image.jpg
 ---
 
 
