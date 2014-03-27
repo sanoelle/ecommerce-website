@@ -1,5 +1,5 @@
 ---
-layout: jewelry
+layout: products
 type: earrings
 title: Jane's Pearls
 price: $50
