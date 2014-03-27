@@ -1,13 +1,10 @@
 ---
-layout: jewelry
+layout: products
 type: earrings
-title: Sunny's Day
+title: Jane's Pearls
 price: $50
+image: jewelry/earrings/sample-image.jpg
 ---
 
-<!-- Paragraphs --->
 
-<!-- H2 -->
-## Features
-
-![Sunny's Day](../../images/jewelry/earrings/sample-image.jpg)
+Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
