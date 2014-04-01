@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
+title: Evergold 
 price: $50
-image: jewelry/earrings/sample-image.jpg
+image: jewelry/earrings/earrings-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Evergold earrings are delicate pair of 12k gold earrings. They are perfect for everyday outfit pairing as well as formal and professional attire. 

@@ -125,7 +125,6 @@ ul,li {
 	margin-left:9rem;
 }
 
-}
 
 /* Toggle Nav
 .nav-top{
@@ -182,8 +181,6 @@ body{
 	background-color:#ccc;
 	font-weight:700;
 }
-
-@media only screen and (min-width: 53em){
 
 .line{
 	margin-top: 6rem;	

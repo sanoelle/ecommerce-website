@@ -135,16 +135,7 @@ input[type=number]::-webkit-outer-spin-button {
 	
 .box-wrapper{
 	/*border: 1px solid red;*/
-	margin-left: 10rem;
 	margin-top: 0rem;	
-}
-
-.title{
-	margin-left: 10rem;
-}
-
-.title{
-	float:left;
 }
 
 .media-body-price{
@@ -163,6 +154,19 @@ input[type=number]::-webkit-outer-spin-button {
 
 .unit-m-1-2 {
 	width: 50%;
+}
+}
+
+@media only screen and (min-width: 50em){
+	
+.box-wrapper{
+	margin-left: 10rem;
+	margin-bottom: 4rem;
+}
+
+.title{
+	margin-left: 10rem;
+	float:left;
 }
 }
 
