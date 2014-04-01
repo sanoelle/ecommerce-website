@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 1
+title: Baily's blue
 price: $20
-image: outerwear/scarves/sample-image.jpg
+image: outerwear/scarves/scarf-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This navy blue crochet infinity scarf is the perfect finishing touch to a fall, winter, or spring outfit! 

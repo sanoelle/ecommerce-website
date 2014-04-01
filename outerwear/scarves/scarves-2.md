@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 2
-price: $20
-image: outerwear/scarves/sample-image.jpg
+title: Pensive
+price: $15
+image: outerwear/scarves/scarf-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Pensive is part of our Spring 2014 collection. It is a lightweight infinity scarf that is worn well in the warmer months of the year.

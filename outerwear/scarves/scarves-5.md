@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 5
-price: $20
-image: outerwear/scarves/sample-image.jpg
+title: Felicity
+price: $30
+image: outerwear/scarves/scarf-5.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Felicity is an classic Willow Tree item. It is a pashmina scarf perfect for any season. 

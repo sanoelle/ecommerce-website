@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 6
+title: Envy
 price: $20
-image: outerwear/scarves/sample-image.jpg
+image: outerwear/scarves/scarf-6.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This emerald green infinity scarf is made of the softest cotton. It does a fabulous job at keeping warmth on those cold winter days and adds a nice splash of colour to any complexion. 

@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 4
-price: $20
-image: outerwear/scarves/sample-image.jpg
+title: Sophisticate
+price: $30
+image: outerwear/scarves/scarf-4.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This thick pashmina scarf is a staple wardrobe item. It can be worn for both fashion and function in any season. 

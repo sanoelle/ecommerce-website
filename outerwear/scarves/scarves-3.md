@@ -1,10 +1,10 @@
 ---
 layout: products
 type: scarves
-title: Scarf 3
-price: $20
-image: outerwear/scarves/sample-image.jpg
+title: Spring Loving
+price: $15
+image: outerwear/scarves/scarf-3.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Spring Loving is part of our Spring 2014 collection and is the perfect accessory for the season!
