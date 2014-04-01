@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
+title: Seastones
 price: $50
-image: jewelry/earrings/sample-image.jpg
+image: jewelry/necklaces/necklace-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This necklace is decorated in real pieces of sea-glass collected off of our Canadian coastlines. With subtle colour, this necklace can be worn to add a subtle statement to an everyday or formal outfit. 

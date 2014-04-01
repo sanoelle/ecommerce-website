@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/earrings/sample-image.jpg
+title: Goldendrop
+price: $80
+image: jewelry/necklaces/necklace-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This decorative piece is made of 15k gold and consists of two elements on a fine yet sturdy gold chain. It is the perfect piece of quality jewelry for a tasteful outfit. 

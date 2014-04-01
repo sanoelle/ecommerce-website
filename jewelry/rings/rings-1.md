@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/rings/sample-image.jpg
+title: Auras
+price: $65
+image: jewelry/rings/rings-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Auras rings are a set of four finely detailed gold bangles. Each ring is engraved by hand, by hardworking Canadian artists. As the rings are not fused together, they can be worn together or seperately depending on your fashion preference.

@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/rings/sample-image.jpg
+title: Golden Goose
+price: $40
+image: jewelry/rings/rings-3.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This ring was inspired by the story of Jack and the Beanstock. The ring resembles a golden feather, with an amber stone set on edge. 

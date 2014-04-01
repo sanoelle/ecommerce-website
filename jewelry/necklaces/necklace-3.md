@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/earrings/sample-image.jpg
+title: Heart of Gold
+price: $45
+image: jewelry/necklaces/necklace-3.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This small and simple necklace is made of 12k gold and is the perfect charm for any outfit!

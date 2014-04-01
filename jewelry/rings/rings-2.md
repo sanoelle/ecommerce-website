@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/rings/sample-image.jpg
+title: Turquoise
+price: $250
+image: jewelry/rings/rings-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This simple and elegant ring is composed of white gold and moissanite stones. 

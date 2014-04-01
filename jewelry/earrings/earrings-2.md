@@ -1,10 +1,10 @@
 ---
 layout: products
 type: earrings
-title: Jane's Pearls
-price: $50
-image: jewelry/earrings/sample-image.jpg
+title: Willow Drops
+price: $45
+image: jewelry/earrings/earrings-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Willow Drops have been a classic Willow Tree original. Collectively designed by our personal artists, the Willow Drops, made of 12k gold, are a unique and simple fashion accessory. 
