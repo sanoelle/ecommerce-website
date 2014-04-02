@@ -6,52 +6,28 @@ showsidenav: yes
 showsidenavjewl: yes
 jewelryimage: yes
 ---
-
-<p class="h1-alt">Jewelry</p>
-
-<!--
-<ul>
-	{% for jewelry in site.pages %}
-		{% if jewelry.type == 'earrings' %}
-			<li>
-				{{jewelry.title}}
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
-
-<ul> <!-- Want Jaekl to automatically generate </li>s for the page - loop --><!--
-	{% for jewelry in site.pages %} <!-- Any code between the for and endfor will get written out multiple times --><!--
-		{% if dino.category == 'jewelry' %}
-			<li>
-			<a href="{{site.baseurl}}{{dino.url}}">
-				<img src="{{site.baseurl}}/images/{{earring.image}}" alt="">
-				{{earring.name}}
-			</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
-
--->
-{% if page.jewelryimage%}
-	<div class="product-images">
-		<div class="grid">
-			<div>
-				<a href="/jewelry/earrings/index.html/">
-					<img src="{{site.baseurl}}/../images/jewelry/earrings/earrings-3.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
-				</a>
-			</div>
-			<div>
-				<a href="/jewelry/rings/index.html/">
-					<img src="{{site.baseurl}}/../images/jewelry/rings/rings-1.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
-				</a>
-			</div>
-			<div>
-				<a href="/jewelry/necklaces/index.html/">
-					<img src="{{site.baseurl}}/../images/jewelry/necklaces/necklace-1.jpg" alt="" class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
-				</a>
+<main role="main">
+	<p class="h1-alt">Jewelry</p>
+	
+	{% if page.jewelryimage%}
+		<div class="product-images">
+			<div class="grid">
+				<div class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+					<a class="block-link" href="/jewelry/earrings/index.html/">
+						<img src="{{site.baseurl}}/../images/jewelry/earrings/earrings-3.jpg" alt="earrings" class="img-flex">
+					</a>
+				</div>
+				<div class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+					<a class="block-link" href="/jewelry/rings/index.html/">
+						<img src="{{site.baseurl}}/../images/jewelry/rings/rings-1.jpg" alt="rings" class="img-flex">
+					</a>
+				</div>
+				<div class="gutter small-promo unit unit-s-1 unit-m-1-3 unit-l-1-3">
+					<a class="block-link" href="/jewelry/necklaces/index.html/">
+						<img src="{{site.baseurl}}/../images/jewelry/necklaces/necklace-1.jpg" alt="necklaces" class="img-flex">
+					</a>
+				</div>
 			</div>
 		</div>
-	</div>
-{% endif %}
+	{% endif %}
+</main>

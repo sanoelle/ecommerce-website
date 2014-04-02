@@ -27,39 +27,40 @@
 <body>	
 
 <!-- Header & Navigation -->
-
+<header class="" role="banner">
 <!-- Search Field-->
 
-<form class="search-form" method='get' action="{{site.baseurl}}/search/">
-  <div class="search-field-container">
-    <input type="text" class="search-field" placeholder="Search..." />
-  </div>  
-</form>
+	<form class="search-form" method='get' action="{{site.baseurl}}/search/" role="search">
+	  <div class="search-field-container">
+		<input type="text" class="search-field" placeholder="Search..." />
+	  </div>  
+	</form>
 
 <!--(Invisible) header & (visible) logo -->
 
 
-<div class="header">
-	<h1>The Willow Tree</h1>
-</div>
-<a href=""><img src="{{site.baseurl}}/images/twt-logo-copy.gif" alt="The Willow Tree Logo" class="img top-logo"></a> 
-
-<!-- Nav -->
-<main>
-	<a href="#nav" class="nav-btn">MENU</a>
-	<nav class="nav nav-top ease-all" data-state="collapsed">
-		<ul>
-			<li><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
-			<li><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">ABOUT</a></li>
-			<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">JEWELRY</a></li>
-			<li><a class="{% if page.url == '/outerwear/'%}current{% endif %}" href="{{site.baseurl}}/outerwear/">OUTERWEAR</a></li>
-			<li><a class="{% if page.url == '/footwear/'%}current{% endif %}" href="{{site.baseurl}}/footwear/">FOOTWEAR</a></li>
-		</ul>
-	</nav>
-	{% if page.showline%}
-		<div class="line"></div>
-	{% endif %}
-</main>
+	<div class="header">
+		<h1>The Willow Tree</h1>
+	</div>
+	<a href=""><img src="{{site.baseurl}}/images/twt-logo-copy.gif" alt="The Willow Tree Logo" class="img top-logo"></a> 
+	
+	<!-- Nav -->
+	<main>
+		<a href="#nav" class="nav-btn">MENU</a>
+		<nav class="nav nav-top ease-all" data-state="collapsed" role="navigation">
+			<ul>
+				<li><a class="{% if page.url == '/'%}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
+				<li><a class="{% if page.url == '/about/'%}current{% endif %}" href="{{site.baseurl}}/about/">ABOUT</a></li>
+				<li><a class="{% if page.url == '/jewelry/'%}current{% endif %}" href="{{site.baseurl}}/jewelry/">JEWELRY</a></li>
+				<li><a class="{% if page.url == '/outerwear/'%}current{% endif %}" href="{{site.baseurl}}/outerwear/">OUTERWEAR</a></li>
+				<li><a class="{% if page.url == '/footwear/'%}current{% endif %}" href="{{site.baseurl}}/footwear/">FOOTWEAR</a></li>
+			</ul>
+		</nav>
+		{% if page.showline%}
+			<div class="line"></div>
+		{% endif %}
+	</main>
+</header>
 
 {% if page.showbanner%}
 	<div class="banner">
@@ -127,7 +128,7 @@
 		</ul>
 	</section>
 	
-	<p class="info-footer-text micro border-top">613.477.3392 | infotree@thewillowtree.ca</p>
+	<p class="info-footer-text micro border-top" role="contentinfo">613.477.3392 | infotree@thewillowtree.ca</p>
 	
 </div>
 
