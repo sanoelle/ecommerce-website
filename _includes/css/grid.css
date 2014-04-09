@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*img{
+	width:100%;
+}
+
+@media only screen and (min-width: 43em){
+.unit-m-1-3{
+	width: 33.3333%;
+	
+}
+
+.unit-m-1 {
+	width: 100%;
+}
+
+.unit-m-1-2 {
+	width: 50%;
+}
+}*/
+
+/*.gutter{
+	padding-left: 1rem;
+ 	padding-right: 1rem;
+}*/
+
+.small-promo{
+	margin-top: 2rem;	
+}
+
+.grid{
+	/*border: 1px solid red;*/
+	overflow:hidden;
+}
+
+.grid-2{
+	/*border: 1px solid red;*/
+	overflow:hidden;
+	margin-bottom:-3rem;
+}
+
+.unit{
+	background-color: #fff;
+	float: left;
+}
+
+.unit-s-1{
+	width: 100%;
+}
+
+@media only screen and (min-width: 36em){
+
+.unit-m-1-3{
+	width: 33.3333%;
+}
+
+.unit-m-1 {
+	width: 100%;
+}
+
+.unit-m-1-2 {
+	width: 50%;
+}
+
+.gutter{
+	padding-left: 1rem;
+ 	padding-right: 1rem;
+}
+
+}
+
+@media only screen and (min-width: 50em){
+
+.unit-l-1-3{
+	width: 33.3333%;
+}
+
+.unit-l-2-3{
+	width: 66.6666%;
+}
+
+.unit-l-1-2{
+	width: 50%;
+}
+
+.unit-l-3-3{
+	width: 100%;
+}
+}
+
+

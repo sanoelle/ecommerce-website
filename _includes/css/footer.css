@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.footer{
+	background-color: rgba(72, 70, 70, 1);
+	height:15rem;
+	width: 100%; 
+	/*position:fixed; 
+	bottom: 0;
+	left: 0;*/
+}
+
+.footer-text{
+	color: #ffffff;
+	text-transform:none;
+	text-align:center;	
+}
+
+.info-footer-text{
+	color: #ffffff;
+	text-transform:none;
+	text-align:center;	
+	font-weight: 100;
+	letter-spacing:1.5px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top:1.5rem;
+	
+}
+
+.border-bottom{
+	border-bottom: 1px solid #ccc;
+	margin: 1rem 5%;
+	text-align:center;
+	line-height:50px;
+}
+
+.border-top{
+	border-top: 1px solid #ccc;
+	margin: 0 5%;
+	text-align:center;
+}
+
+
+/*Social Icons*/
+
+section{ /*having issues centering on smallest screen size*/
+	width: 13rem;
+	display:table;
+	margin-left: auto;
+	margin-right:auto;
+	clear:both;
+}
+
+footer a,
+footer a:link {
+	border-bottom: none;
+}
+
+footer ul li:before {
+	content: "";
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	font-size: 1.4238rem;
+	float:left;
+	height: 50px;
+	width: 50px;
+	margin-right: 1rem;
+	text-align: center;
+	color: #CCC;
+}
+
+.social li a:hover,
+.socail li a:active,
+.socail li a:focus{
+	color: #DC1F47;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transistion: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o- transition:all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+

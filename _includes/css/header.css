@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.header{
+	margin-top: 2rem;	
+	display:none;
+}
+
+.top-logo{
+	width:70%;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+	margin-top:2rem;
+	margin-bottom:1.5rem;
+	padding-right:0.5rem;
+}
+
+/*main{
+	margin:0 5%;
+}*/
+
+/*Navigation*/
+.nav a,
+.nav a:link,
+.nav a:visited{
+	display:block;
+	color: #000;
+	text-decoration:none; /*is not working*/
+	text-align:center;
+	list-style-type: none;
+	line-height:2rem;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display:block;
+	color: #000;
+	text-decoration:none; /*is not working*/
+	text-align:center;
+	list-style-type: none;
+	line-height:2rem;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	color: #DC1F47;
+}
+
+ul li:before {
+	content: "";
+}
+
+ul,li { 
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0; 
+}
+
+/* Toggle Nav*/
+.nav-top{
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+	overflow:hidden;
+}
+
+.nav-top[data-state="expanded"]{
+	max-height: 14rem;
+}
+	
+.ease-all,
+.nav,
+.nav-top{
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transistion: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o- transition:all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.banner{
+	background: #ccc url("../images/banner-aqua.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 2em 1em 2em;
+	margin-top: 0.5rem;
+}
+
+.banner-text{
+	padding: 1em 1em 1em;
+	text-align:center;
+	color: #fff;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-size:24px;
+	border: 3px solid white;
+}
+
+.banner-text-under{
+	text-align:center;
+	color: #fff;
+	margin-top: -1rem;
+	font-style: italic;
+}
+
+@media only screen and (min-width: 33em){
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: none;
+}
+	
+.nav-top{
+	max-height: 5rem;
+	margin-top: 2rem;
+}
+
+.nav li{
+	float: left;
+	width: 20%;
+	display: inline-block;	
+	margin-bottom: 0rem;
+	border-bottom: none;
+}
+
+.top-logo{
+	width:40%;
+}
+
+.banner{
+	padding: 9em 1em 9em;
+}
+}
+
+@media only screen and (min-width: 53em){
+.top-logo{
+	float:left;
+	width:12%;
+	margin-top:auto;
+	margin-left:2rem;
+}	
+
+.nav li{
+	float: left;
+	width: 12%;
+	font-size: 0.7901rem;
+	margin-top:2.2rem;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	line-height:1rem;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: rgba(230, 31, 71, 1);
+	color: #FFF;
+}
+
+a,
+a:link {
+	border-bottom:none;
+}
+
+.banner{
+	margin-top: 1.5rem;
+}
+
+.banner{
+	padding: 15em 1em 15em;
+}
+	
+}
+
