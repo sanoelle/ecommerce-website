@@ -1,0 +1,15 @@
+# http://humanstxt.org/
+
+/*TEAM*/
+
+Designer & Developper: Sarah Hodgson
+Location: Ottawa, Canada
+
+/*THANKS*/
+To all the people who make the interwebz.
+
+/*SITE*/
+Last update: April 2014
+Standards: HTML5, CSS3
+Componente: Modernizer, Jquery, etc...
+Software: Adobe, Github
