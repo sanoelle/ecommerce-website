@@ -1,10 +1,10 @@
 ---
 layout: products
 type: sandals
-title: Sandals 3
+title: Lennon
 price: $50
-image: footwear/sandals/sample-image.jpg
+image: footwear/sandals/flats-3.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These fun and flirty sandals are perfect for hot summer days. Their bright colour adds a subtle pop to any outfit and their straps provide security and comfort. 
