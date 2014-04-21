@@ -1,10 +1,10 @@
 ---
 layout: products
 type: eyewear
-title: Eyewear 2
+title: Anna
 price: $20
-image: outerwear/eyewear/sample-image.jpg
+image: outerwear/eyewear/eyewear-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This pair of classic sunglasses provide style and sun-protection. Their UV resistant lenses are ideal for sun-filled days and their patterned rim will add subtle contrast to any outfit. 

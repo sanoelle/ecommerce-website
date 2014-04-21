@@ -1,9 +1,9 @@
 ---
 layout: products
 type: boots
-title: Boots 1
-price: $50
-image: footwear/boots/sample-image.jpg
+title: Amsterdam
+price: $80
+image: footwear/boots/boots-1.jpg
 ---
 
 
