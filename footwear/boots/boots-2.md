@@ -1,10 +1,10 @@
 ---
 layout: products
 type: boots
-title: Boots 2
-price: $50
-image: footwear/boots/sample-image.jpg
+title: Oklahoma
+price: $40
+image: footwear/boots/boots-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These fun and flirty cowboy boots are a nice summer accessory to any outfit. They can be easily paired with pants, leggings, shorts, skirts, and dresses. 

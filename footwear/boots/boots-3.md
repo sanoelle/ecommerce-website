@@ -1,10 +1,10 @@
 ---
 layout: products
 type: boots
-title: Boots 3
-price: $50
-image: footwear/boots/sample-image.jpg
+title: Vienna
+price: $60
+image: footwear/boots/boots-3.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These tall boots are outfitted for warmth. Their strong waterproof shell, protects your feet from the elements, while their material lining keeps the cold away. 

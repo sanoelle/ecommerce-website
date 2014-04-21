@@ -7,4 +7,4 @@ image: footwear/boots/boots-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+This sturdy pair of stylish boots are strong and durable for extensive wear and come lined in comfort. You will never want to take them off!
