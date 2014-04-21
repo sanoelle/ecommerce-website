@@ -5,6 +5,10 @@
 	display:block;	
 }
 
+.paragraph{
+	margin: 0 10%;
+}
+
 /* Product Page CSS */
 
 .h1-alt{
@@ -193,6 +197,7 @@ ul,li {
 body{
 	margin: 0px;
 }
+
 .paragraph{
 	text-align:center;
 	margin: 0 10%;
