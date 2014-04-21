@@ -1,10 +1,10 @@
 ---
 layout: products
 type: hats
-title: Hat 1
-price: $30
-image: outerwear/hats/sample-image.jpg
+title: Savvy
+price: $20
+image: outerwear/hats/hats-2.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+Savvy is the perfect summer hat. It's lightweight wear is comforatble and its small rim provides amble shade from the sun with a great amount of style and class. 
