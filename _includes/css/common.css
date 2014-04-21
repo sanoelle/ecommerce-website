@@ -83,6 +83,31 @@ ul,li {
 	text-transform:uppercase;
 	margin-top:1rem;
 }
+
+.search-res-caption-cart,
+.search-res-caption-title{
+	text-align:center;
+	font-size: 1.2656rem;
+  	line-height: 1.1852;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #484646;
+	text-transform:uppercase;
+	margin-top:1rem;
+	margin-bottom:0rem;
+}
+
+.search-res-caption-cart-price{
+	text-align:center;
+	font-size: 1.0000rem;
+  	line-height: 1.1852;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #484646;
+	text-transform:uppercase;
+	margin-top:0rem;
+	margin-bottom:1rem;
+}
 }
 
 /* SEARCH RESULTS ENDS */
@@ -128,6 +153,15 @@ ul,li {
 	margin-left:9rem;
 }
 
+.search-res-caption-cart,
+.search-res-caption-cart-price{
+	text-align:left;
+}
+
+.search-res-caption-title{
+	text-align:left;
+	margin-left:1rem;
+}
 
 /* Toggle Nav
 .nav-top{
