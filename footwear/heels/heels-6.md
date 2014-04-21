@@ -1,10 +1,10 @@
 ---
 layout: products
 type: heels
-title: Heels 6
+title: Chloë
 price: $50
-image: footwear/heels/sample-image.jpg
+image: footwear/heels/heels-6.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These simple wedge heels are professional and comfortable and can be worn in the office or for a night on the town. 

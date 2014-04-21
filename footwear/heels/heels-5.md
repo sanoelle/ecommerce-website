@@ -1,10 +1,10 @@
 ---
 layout: products
 type: heels
-title: Heels 5
+title: Amber
 price: $50
-image: footwear/heels/sample-image.jpg
+image: footwear/heels/heels-5.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These little black heels are designed for comfort. Their small heel provides ample height while their flexible exterior allows them to shape themselves to your foot. 

@@ -1,10 +1,10 @@
 ---
 layout: products
 type: heels
-title: Heels 4
-price: $50
-image: footwear/heels/sample-image.jpg
+title: Alice
+price: $40
+image: footwear/heels/heels-4.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+These are the perfect summer heel! They can be paired with a variety of outfits and would look absolutely wonderful as footwear for a summer wedding. 
