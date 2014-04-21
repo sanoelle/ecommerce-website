@@ -5,6 +5,10 @@
 	display:block;	
 }
 
+body{
+	margin:0px;
+}
+
 .paragraph{
 	margin: 0 10%;
 }
@@ -193,10 +197,6 @@ ul,li {
 
 
 /* Product Page CSS ENDS*/
-
-body{
-	margin: 0px;
-}
 
 .paragraph{
 	text-align:center;
