@@ -13,3 +13,4 @@ Last update: April 2014
 Standards: HTML5, CSS3
 Componente: Modernizer, Jquery, etc...
 Software: Adobe, Github
+Images: © 2014 Sarah Hodgson
