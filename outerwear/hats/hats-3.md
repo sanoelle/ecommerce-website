@@ -1,10 +1,10 @@
 ---
 layout: products
 type: hats
-title: Hat 3
+title: London
 price: $30
-image: outerwear/hats/sample-image.jpg
+image: outerwear/hats/hats-1.jpg
 ---
 
 
-Jane's Pearls are an excellent accesory to any outfit. They can be worn for a variety of occasions as well as in the everyday. They are a staple item for ones accesory wardrobe. 
+London is a heavier weighted hat, designed to resist the cold in style. 
