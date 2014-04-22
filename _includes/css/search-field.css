@@ -6,6 +6,11 @@
 
 
 /* Main CSS */
+
+.search-box{
+	margin: 0 2%;
+}
+
 .search-field-container{ 
 	position: relative; 
 	margin-bottom: 2rem;
@@ -15,7 +20,6 @@
 .search-field{ 
 	width: 100%; 
 	position:absolute; 
-	right: 0; 
 	top: 0;
   	-webkit-transition: all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
@@ -63,6 +67,10 @@
 
 .search-field:focus{ 
 	width: 30%; 
+}
+
+.search-box{
+	margin: 0 0;
 }
 
 }
