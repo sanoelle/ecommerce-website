@@ -177,6 +177,10 @@ ul,li {
 	position:fixed;
 }
 
+.cart-content{
+	margin: 0 5%;
+}
+
 
 .product-images{
 	margin-left:9rem;
