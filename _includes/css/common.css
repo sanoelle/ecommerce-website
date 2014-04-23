@@ -75,6 +75,11 @@ ul,li {
 }
 
 /* SEARCH RESULTS PAGE */
+
+.cart-total{
+	text-align: center;
+}
+
 .cart-images,
 .search-res-images{
 	padding-top:1rem;
@@ -145,8 +150,16 @@ ul,li {
 	padding-top:0rem;
 }
 
+
 /* SEARCH RESULTS ENDS */
 
+}
+
+@media only screen and (min-width: 50em){
+.cart-total{
+	text-align: right;
+	margin: 0 4%;
+}
 }
 
 @media only screen and (min-width: 53em){
