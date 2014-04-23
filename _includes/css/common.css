@@ -78,6 +78,14 @@ ul,li {
 
 .cart-total{
 	text-align: center;
+	margin: 0 20%;
+}
+
+.grand-total{
+	border-top: 1px solid black;
+	margin-top: 1rem;
+	line-height: 2rem;
+	color: #DC1F47;
 }
 
 .cart-images,
